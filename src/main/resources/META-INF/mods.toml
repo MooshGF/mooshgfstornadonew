@@ -1,0 +1,21 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+[[mods]]
+modId="mooshgfstornado"
+version="1.0.0"
+displayName="MooshGF's Tornado Mod"
+authors="MooshGF"
+description='''Command-driven supercells, tornado vortexes, and Dominator vehicle props for Minecraft Forge 1.20.1.'''
+[[dependencies.mooshgfstornado]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.mooshgfstornado]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="BOTH"
